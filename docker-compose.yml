@@ -1,0 +1,8 @@
+version: '2'
+services:
+  playground:
+    image: jupyter/tensorflow-notebook
+    ports:
+      - "8888:8888"
+    volumes:
+      - ".:/home/jovyan/work"
